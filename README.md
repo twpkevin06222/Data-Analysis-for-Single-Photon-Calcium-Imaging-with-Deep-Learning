@@ -32,5 +32,5 @@ Since this is an unsupervised learning task, our team adopted an autoencoder ins
 </p>
 - Encoder network: 
 <p align="center">
-<img src="Fig/final_enc_network.jpeg", width=800, height=500>
+<img src="Fig/final_enc_network.jpeg", width=700, height=400>
 </p>
