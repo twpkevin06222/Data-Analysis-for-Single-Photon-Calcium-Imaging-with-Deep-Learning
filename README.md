@@ -28,9 +28,9 @@ Since this is an unsupervised learning task, our team adopted an autoencoder ins
 </p>
 - Complete model pipeline: 
 <p align="center">
-  <img src="Fig/Full_Model_Image.jpg", width=700, height=600>
+  <img src="Fig/Full_Model_Image.jpg", width=600, height=500>
 </p>
 - Encoder network: 
 <p align="center">
-<img src="Fig/final_enc_network.jpeg", width=700, height=600>
+<img src="Fig/final_enc_network.jpeg", width=800, height=500>
 </p>
