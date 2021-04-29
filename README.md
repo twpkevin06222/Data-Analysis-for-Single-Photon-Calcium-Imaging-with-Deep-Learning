@@ -16,7 +16,7 @@ Calcium images are captured via head-mounted miniature microscopes on rodents. T
 </p>
 
 ## Methods 
-In our proposed model pipeline, we extensively implemented CoordConv by [Liu et al.](https://arxiv.org/abs/1807.03247) to capture the essence of positional features in the pixel space, hypothesising that this method would aid the allocation of neuron activation in the calcium images along the time frame. 
+In our proposed model pipeline, we extensively implemented CoordConv by [Liu et al.](https://arxiv.org/abs/1807.03247) to capture the essence of positional features in the pixel space, hypothesising that this method would aid the allocation of neuron activation in the calcium images along the time frame. A schematic plot of CoordConv is as depicted below where the feature maps are concated with two positional features at the end of the channel before convolution operation.  
 <p align="center">
 <img src="Fig/CoordConvLayer.png", width=500, height=300>
 </p>
@@ -48,6 +48,7 @@ pre-trained De-CoordConv network, which generates a sparse visualization of all 
 </p>
 
 ## Results 
+The red dots represent the learnt pixel coordinates from the model throughout the training process where the red dots are summed along the time axis to show the neuron activations throughout a session. The white patches at the background are essentially the annotated groundtruth provided.  
 |Session DG-13-3-8-17|Session DG-13-7-12-17|Session DG-13-8-11-17|
 |:--:|:--:|:--:|
 |![](Fig/13-3-8-17.png)|![](Fig/13-7-12-17.png)|![](Fig/13-8-11-17.png)|
