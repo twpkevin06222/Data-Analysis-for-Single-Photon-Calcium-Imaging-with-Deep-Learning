@@ -21,6 +21,7 @@ In our proposed model pipeline, we extensively implemented CoordConv by [Liu et 
 <img src="Fig/CoordConvLayer.png", width=500, height=300>
 </p>
 
+Toy example of CoordConv can be found in the following folder:```Coordconv``` and exemplary code:```coord_conv.py``` 
 ## Model 
 Since this is an unsupervised learning task, our team adopted an autoencoder inspired model architecture in the hope to learn the neuron activations from calcium imaging via reconstruction. The output of various pipeline in the model are as shown below. 
 
