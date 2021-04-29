@@ -12,7 +12,7 @@ microscopes became increasingly popular since it allows the observation of freel
 ## Baseline 
 Calcium images are captured via head-mounted miniature microscopes on rodents. These calcium images are preprocessed follow by annotation enhancement by domain experts using the CAVE tools, a GUI implementation in MatLab by [Tegtmeier et al](https://doi.org/10.3389/fnins.2018.00958). from LIN in order to retrieve region of interest(ROI). 
 <p align="center">
-<img src="Fig/data_pipeline.png">
+<img src="Fig/data_pipeline.png", width=600, height=500>
 </p>
 
 ## Methods 
