@@ -40,6 +40,11 @@ Since this is an unsupervised learning task, our team adopted an autoencoder ins
 <img src="Fig/final_enc_network.jpeg", width=650, height=350>
 </p>
 
+- Decoder network
+<p align="center">
+<img src="Fig/Decoder.PNG", width=650, height=350>
+</p>
+
 ## Results 
 |Session DG-13-3-8-17|Session DG-13-7-12-17|Session DG-13-8-11-17|
 |:--:|:--:|:--:|
