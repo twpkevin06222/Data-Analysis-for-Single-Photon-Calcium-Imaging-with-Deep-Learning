@@ -23,14 +23,19 @@ In our proposed model pipeline, we extensively implemented CoordConv by [Liu et 
 
 ## Model 
 Since this is an unsupervised learning task, our team adopted an autoencoder inspired model architecture in the hope to learn the neuron activations from calcium imaging via reconstruction. The output of various pipeline in the model are as shown below. 
+
 <p align="center">
 <img src="Fig/row1_title.png">
 </p>
+
 - Complete model pipeline: 
+
 <p align="center">
   <img src="Fig/Full_Model_Image.jpg", width=550, height=450>
 </p>
+
 - Encoder network: 
+
 <p align="center">
 <img src="Fig/final_enc_network.jpeg", width=650, height=350>
 </p>
