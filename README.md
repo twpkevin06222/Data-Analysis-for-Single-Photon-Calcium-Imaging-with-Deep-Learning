@@ -28,7 +28,7 @@ Since this is an unsupervised learning task, our team adopted an autoencoder ins
 <img src="Fig/row1_title.png">
 </p>
 
-- Complete model pipeline: 
+- Complete model pipeline (below): 
 On the left-hand side, the model consists of an encoder network, aiming to enhance the input images’ signal-to-noise ratio. On the right-hand side, there is
 pre-trained De-CoordConv network, which generates a sparse visualization of all learnable coordinates. The similarity scores are obtained at the bottleneck layer of this network by computing the dot product between the encoder output and the learnable coordinates’ sparse visualization. The latent space is constructed by concatenating the learnable coordinates with their similarity scores. The decoder reconstructs the input image from the latent space.
 
@@ -36,13 +36,13 @@ pre-trained De-CoordConv network, which generates a sparse visualization of all 
   <img src="Fig/Full_Model_Image.jpg", width=550, height=450>
 </p>
 
-- Encoder network: 
+- Encoder network (below): 
 
 <p align="center">
 <img src="Fig/final_enc_network.jpeg", width=650, height=350>
 </p>
 
-- Decoder network
+- Decoder network (below):
 <p align="center">
 <img src="Fig/Decoder.PNG", width=600, height=350>
 </p>
