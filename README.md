@@ -42,7 +42,7 @@ Since this is an unsupervised learning task, our team adopted an autoencoder ins
 
 - Decoder network
 <p align="center">
-<img src="Fig/Decoder.PNG", width=650, height=400>
+<img src="Fig/Decoder.PNG", width=600, height=350>
 </p>
 
 ## Results 
