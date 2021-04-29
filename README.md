@@ -16,7 +16,21 @@ Calcium images are captured via head-mounted miniature microscopes on rodents. T
 </p>
 
 ## Methods 
-In our proposed model pipeline, we extensively implemented CoordConv by [Liu et al.](https://arxiv.org/abs/1807.03247) to capture the essence of positional features in the pixel space hypothesising that this method would aid the allocation of neuron activation in the calcium images along the time frame. 
+In our proposed model pipeline, we extensively implemented CoordConv by [Liu et al.](https://arxiv.org/abs/1807.03247) to capture the essence of positional features in the pixel space, hypothesising that this method would aid the allocation of neuron activation in the calcium images along the time frame. 
 <p align="center">
 <img src="Fig/CoordConvLayer.png">
+</p>
+
+## Model 
+Since this is an unsupervised learning task, our team adopted an autoencoder inspired model architecture in the hope to learn the neuron activations from calcium imaging via reconstruction. The output of various pipeline in the model are as shown below. 
+<p align="center">
+<img src="Fig/row1_title.png">
+</p>
+- Complete model pipeline: 
+<p align="center">
+<img src="Fig/Full_Model_Image.png">
+</p>
+- Encoder network: 
+<p align="center">
+<img src="Fig/final_enc_network.png">
 </p>
