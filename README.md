@@ -18,7 +18,7 @@ Calcium images are captured via head-mounted miniature microscopes on rodents. T
 ## Methods 
 In our proposed model pipeline, we extensively implemented CoordConv by [Liu et al.](https://arxiv.org/abs/1807.03247) to capture the essence of positional features in the pixel space, hypothesising that this method would aid the allocation of neuron activation in the calcium images along the time frame. 
 <p align="center">
-<img src="Fig/CoordConvLayer.png", width=550, height=350>
+<img src="Fig/CoordConvLayer.png", width=500, height=350>
 </p>
 
 ## Model 
