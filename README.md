@@ -11,3 +11,6 @@ microscopes became increasingly popular since it allows the observation of freel
 
 ## Baseline 
 Calcium images are captured via head-mounted miniature microscopes on rodents. These calcium images are preprocessed follow by annotation enhancement by domain experts using the [CAVE](https://doi.org/10.3389/fnins.2018.00958) tools, a GUI implementation in MatLab designed by the researchers from LIN. 
+<p align="center">
+<img src="Fig/data_pipeline">
+</p>
