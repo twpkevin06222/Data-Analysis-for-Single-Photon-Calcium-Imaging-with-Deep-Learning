@@ -54,3 +54,9 @@ The red dots represent the learnt pixel coordinates from the model throughout th
 |![](Fig/13-3-8-17.png)|![](Fig/13-7-12-17.png)|![](Fig/13-8-11-17.png)|
 |Session DG-13-8-16-17|Session DG-13-8-18-17|Session DG-13-8-8-17|
 |![](Fig/13-8-16-17.png)|![](Fig/13-8-18-17.png)|![](Fig/13-8-8-17.png)|
+
+
+## License and Copyright
+Copyright (c) 2021 Wai Po Kevin Teng, Praveen Putti & Lisa Schneider 
+
+Licensed under the [MIT License](LICENSE)
