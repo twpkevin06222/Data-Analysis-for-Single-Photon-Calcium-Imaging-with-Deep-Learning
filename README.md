@@ -3,7 +3,7 @@ Affliated with Leibniz Institute for Neurobiology(LIN) Magdeburg and OVGU Magdeb
 ```
 Associated team members: Wai Po Kevin Teng, Praveen Putti and Lisa Schneider. 
 ```
-Final report of this project can be viewed [[here](https://github.com/twpkevin06222/DeepCalciumImagingAnalysis_report.pdf)]
+Final report of this project can be viewed [[here](https://github.com/twpkevin06222/Data-Analysis-for-Single-Photon-Calcium-Imaging-with-Deep-Learning/blob/main/report/DeepCalciumImagingAnalysis_report.pdf)]
 
 *Old repository can be found [[here](https://github.com/twpkevin06222/DE_Project)] 
 
